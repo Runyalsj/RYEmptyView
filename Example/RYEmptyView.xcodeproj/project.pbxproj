@@ -23,6 +23,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		931F331C46F4ABCF4491D8FF /* Pods_RYEmptyView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB49C4AF8E22C3DD7A70D45 /* Pods_RYEmptyView_Example.framework */; };
+		9BC0A31821637006007AF5DB /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0A31221637005007AF5DB /* UIView+Frame.m */; };
+		9BC0A31921637006007AF5DB /* RYCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0A31421637005007AF5DB /* RYCollectionViewController.m */; };
+		9BC0A31A21637006007AF5DB /* RYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0A31621637006007AF5DB /* RYTableViewController.m */; };
 		CB33FB55052DFC53B6F758E3 /* Pods_RYEmptyView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682525FBD918F88F2053D840 /* Pods_RYEmptyView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,10 +65,16 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		682525FBD918F88F2053D840 /* Pods_RYEmptyView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYEmptyView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E3952E7B61389FCC7B9DA9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7E3952E7B61389FCC7B9DA9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A240F77127B19F6BD693513E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B9AFC0344B5A4E777292FC86 /* RYEmptyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RYEmptyView.podspec; path = ../RYEmptyView.podspec; sourceTree = "<group>"; };
+		9BC0A31221637005007AF5DB /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		9BC0A31321637005007AF5DB /* RYCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCollectionViewController.h; sourceTree = "<group>"; };
+		9BC0A31421637005007AF5DB /* RYCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCollectionViewController.m; sourceTree = "<group>"; };
+		9BC0A31521637005007AF5DB /* RYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTableViewController.h; sourceTree = "<group>"; };
+		9BC0A31621637006007AF5DB /* RYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTableViewController.m; sourceTree = "<group>"; };
+		9BC0A31721637006007AF5DB /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A240F77127B19F6BD693513E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9AFC0344B5A4E777292FC86 /* RYEmptyView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RYEmptyView.podspec; path = ../RYEmptyView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E464F297C3391BC80B1AACE3 /* Pods-RYEmptyView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYEmptyView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYEmptyView_Tests/Pods-RYEmptyView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +155,12 @@
 				6003F59C195388D20070C39A /* RYAppDelegate.h */,
 				6003F59D195388D20070C39A /* RYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				9BC0A31321637005007AF5DB /* RYCollectionViewController.h */,
+				9BC0A31421637005007AF5DB /* RYCollectionViewController.m */,
+				9BC0A31521637005007AF5DB /* RYTableViewController.h */,
+				9BC0A31621637006007AF5DB /* RYTableViewController.m */,
+				9BC0A31721637006007AF5DB /* UIView+Frame.h */,
+				9BC0A31221637005007AF5DB /* UIView+Frame.m */,
 				6003F5A5195388D20070C39A /* RYViewController.h */,
 				6003F5A6195388D20070C39A /* RYViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -394,10 +409,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RYEmptyView_Example/Pods-RYEmptyView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/RYEmptyView/RYEmptyView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RYEmptyView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +429,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC0A31A21637006007AF5DB /* RYTableViewController.m in Sources */,
+				9BC0A31821637006007AF5DB /* UIView+Frame.m in Sources */,
 				6003F59E195388D20070C39A /* RYAppDelegate.m in Sources */,
+				9BC0A31921637006007AF5DB /* RYCollectionViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* RYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

@@ -1,0 +1,6 @@
+framework module Pods_RYEmptyView_Tests {
+  umbrella header "Pods-RYEmptyView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

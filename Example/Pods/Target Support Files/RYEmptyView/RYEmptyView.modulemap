@@ -1,0 +1,6 @@
+framework module RYEmptyView {
+  umbrella header "RYEmptyView-umbrella.h"
+
+  export *
+  module * { export * }
+}
